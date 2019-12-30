@@ -13,3 +13,17 @@ nav {
   font-size: 1.125rem;
   font-weight: normal;
 }
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
