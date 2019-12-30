@@ -1,12 +1,18 @@
 html {
   background-color: #c9b5ab;
-  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
 
 h1 {
   font-size: 1.5rem;
+}
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
+  font-weight: bold;
 }
 
 nav {
@@ -32,7 +38,40 @@ img {
 }
 
 figcaption {
-  font-family: "PT Serif", serif;
-  font-weight: normal;
   text-align: center;
+  font-style: italic;
+}
+
+.facts {
+  font-weight: bold;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote cite {
+  font-size: .8rem;
+}
+
+h2 + ol {
+  list-style-type: lower-greek;
+}
+
+.serve {
+  font-style: italic;
+}
+
+.serve li {
+  list-style-type: none;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#tags + ul {
+  list-style-type: circle;
 }
