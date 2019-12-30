@@ -31,3 +31,8 @@ nav a:hover {
 img {
   width: 100%;
 }
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+}
