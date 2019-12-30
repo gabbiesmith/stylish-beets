@@ -8,3 +8,8 @@ h1 {
   font-size: 1.5rem;
   color: #3f1622;
 }
+
+nav {
+  font-size: 1.125rem;
+  font-weight: normal;
+}
